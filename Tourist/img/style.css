@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(/img/bg.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+    
+    
+}
+
+#navbar{
+    height: 70px;
+    margin-top: -20px;
+    background-color: rgba(0, 0, 0, 0.575);
+    opacity: 1;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 12px;
+}
+
+#navbar ul li a{
+    padding: 20px;
+    margin: 15px;
+    position: relative;
+    top: 24px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    color: White;
+    transition-property: background-color;
+    transition-duration: 300ms;
+}
+
+#navbar ul li a:hover{
+    color: rgb(16, 243, 16);
+    background-color: rgba(143, 131, 131, 0.288);
+}
+
+.searchbox{
+    display: flex;
+    float: right;
+    height: 27px;
+    padding: 10px;
+    top: -30px;
+    position: relative;
+}
+
+#navbar .search{
+   padding: 10px 14px;
+   border: 2px solid rgba(255, 255, 255, 0);
+   border-radius: 12px;
+   margin-right: 15px;
+}
+
+
+.search-btn{
+    height: 26px;
+    border: 2px solid rgba(255, 255, 255, 0);
+    border-radius: 12px;
+    margin-top: 4px;
+}
+
+
+.heading{
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    margin-left: 45%;
+    margin-top: 35px;
+}
+
+.para{
+    color: yellow;
+    font-family: sans-serif;
+    margin-left: 35%;
+    margin-top: 20px;
+}
+
+/* Add padding to containers */
+.container {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+  
+  /* Full-width input fields */
+  input[type=text], input[type=email] , input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: rgb(221, 219, 219);
+    text-align: center;
+  }
+  
+  input[type=text]:focus, input[type=email]:focus , input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Overwrite default styles of hr */
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+  /* Set a style for the submit/register button */
+  .registerbtn {
+    background-color: #089750;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    transition-property: background-color;
+    transition-duration: 800ms;
+  }
+  
+  .registerbtn:hover {
+    background-color: dodgerblue;
+  }
+  
+  /* Add a blue text color to links */
+  a {
+    color: dodgerblue;
+  }
+  
+  /* Set a grey background color and center the text of the "sign in" section */
+  .signin {
+    background-color: #f1f1f1;
+    text-align: center;
+  }
