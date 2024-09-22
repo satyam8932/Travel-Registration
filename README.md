@@ -1,3 +1,9 @@
-Travel
-Registeration Frontend Demo
-Built using HTML, CSS and JavaScript
+# Travel Registeration Frontend Demo
+
+### Tech Stack
+- HTML
+- JavaScript
+- CSS
+- SCSS
+- TailwindCSS
+- React
