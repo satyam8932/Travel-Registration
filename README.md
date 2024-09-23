@@ -6,4 +6,3 @@
 - CSS
 - SCSS
 - TailwindCSS
-- React
